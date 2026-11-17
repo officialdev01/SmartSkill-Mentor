@@ -1,0 +1,1 @@
+function toggleTheme(){const d=document.body.classList.toggle('dark');localStorage.setItem('smartskill-theme',d?'dark':'light')}document.addEventListener('DOMContentLoaded',()=>{if(localStorage.getItem('smartskill-theme')==='dark')document.body.classList.add('dark')});
